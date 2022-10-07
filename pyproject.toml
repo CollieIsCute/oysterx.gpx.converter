@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "oysterx-fogofworld-converter"
+version = "0.1.0"
+description = ""
+authors = ["Collie Tsai <qetup1988+github@gmail.com>"]
+readme = "README.md"
+packages = [{include = "oysterx"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gpxpy = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
